@@ -1,0 +1,13 @@
+--- python-recode-0.2/testsuite.py.orig	2015-10-15 23:49:31.000000000 +0200
++++ python-recode-0.2/testsuite.py	2020-09-06 19:52:16.074246678 +0200
+@@ -31,6 +31,9 @@
+ def run():
+     failures = 0
+     failures += check_recode()
+-    raise RuntimeError
++    if failures:
++        raise RuntimeError
+ 
+     return failures
++
++exit(run())
