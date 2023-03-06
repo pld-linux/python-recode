@@ -6,7 +6,7 @@ Summary:	Python 2 extension to convert files between character sets
 Summary(pl.UTF-8):	Rozszerzenie Pythona 2 do konwersji plików między zestawami znaków
 Name:		python-recode
 Version:	0.2
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries/Python
 #Source0Download: https://github.com/pybliographer/python-recode/releases
